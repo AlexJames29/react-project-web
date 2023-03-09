@@ -15,17 +15,15 @@ li {
 }
 a {
   text-decoration: none;
-  color: rgb(241, 233, 233);
+  color: rgb(204, 204, 204);
 }
-.nav__item {
-  background-color: #aae3e2;
-}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  background: #aae3e2;
+  background: rgb(0, 33, 65);
 }
 .nav__brand {
   text-transform: uppercase;
@@ -36,7 +34,6 @@ a {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
-  z-index: 100;
 }
 .nav__toggler {
   display: none;
@@ -45,8 +42,7 @@ a {
   width: 2.5rem;
   height: 0.2rem;
   margin: 0.4rem;
-  background: rgb(253, 247, 247);
-  opacity: 0.4;
+  background: rgb(204, 204, 204);
   transition: 0.3s ease-in;
 }
 
@@ -61,10 +57,11 @@ a {
     right: 0;
     height: 93vh;
     width: 50vw;
-    background: rgb(19, 18, 18);
+    background: rgb(0, 33, 65);
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    z-index: 100;
   }
 }
 /* Active Class */

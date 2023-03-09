@@ -1,10 +1,12 @@
+import './NavigatorStyles.css';
 import React, { useState } from "react";
-import "./NavigatorStyles.css";
+
 
 function Navigator() {
   const [active, setActive] = useState("nav__menu");
   
   const [icon, setIcon] = useState("nav__toggler");
+
   const navToggle = () => {
     if (active === "nav__menu") {
       setActive("nav__menu nav__active");
@@ -15,6 +17,7 @@ function Navigator() {
       setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
   };
+
   return (
     <nav className="nav">
       <a href="#" className="nav__brand">
