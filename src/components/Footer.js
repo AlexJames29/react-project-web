@@ -7,7 +7,7 @@ import {
   FaSearchLocation,
   FaMailBulk,
 } from "react-icons/fa";
-import "./FooterStyle.css";
+import './FooterStyles.css';
 
 function Footer() {
   return (
