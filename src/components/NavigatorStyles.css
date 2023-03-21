@@ -51,6 +51,9 @@ a {
     display: block;
     cursor: pointer;
   }
+  .color-nav{
+    color: white;
+  }
   .nav__menu {
     position: fixed;
     top: 7vh;

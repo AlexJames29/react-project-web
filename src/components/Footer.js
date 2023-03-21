@@ -12,14 +12,26 @@ import './FooterStyles.css';
 function Footer() {
   return (
     <div className="social">
-      <a href="https://herewecode.io/" target="blank">
+      <a href="https://herewecode.io/" target="blank" className="color-footer">
         <FaFacebook />
       </a>
+      <a>
       <FaLinkedin />
+      </a>
+      <a>
       <FaPhone />
-      <FaSearchLocation />
-      <FaTwitter />
+      </a>
+     
+     <a>
+     <FaSearchLocation />
+     </a>
+     <a>
+     <FaTwitter />
+     </a>
+      <a>
       <FaMailBulk />
+      </a>
+      
     </div>
   );
 }

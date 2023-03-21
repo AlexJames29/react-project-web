@@ -1,8 +1,17 @@
 import './NavigatorStyles.css';
 import React, { useState } from "react";
+import Home from './Home';
 
 
 function Navigator() {
+
+  const [home, setHome]=useState();
+
+  const handleHome = () =>{
+
+ 
+  }
+
   const [active, setActive] = useState("nav__menu");
   
   const [icon, setIcon] = useState("nav__toggler");
@@ -18,14 +27,15 @@ function Navigator() {
     } else setIcon("nav__toggler");
   };
 
-  return (
+  return ( 
     <nav className="nav">
-      <a href="#" className="nav__brand">
+      <a href="#" className="nav__brand color-nav"  >
+
         AJ
       </a>
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#" className="nav__link" onClick={handleHome}>
             Home
           </a>
         </li>
@@ -35,7 +45,7 @@ function Navigator() {
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="https://alexjames29.github.io/" target="blank" className="nav__link"> 
             Portfolio
           </a>
         </li>
