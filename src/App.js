@@ -17,7 +17,7 @@ function App() {
       <NavigatorMantine/>
       <DarkVariantExample />
       <About />
-      {/* <Contact/> */}
+      <Contact/>
       <Footer />
     </div>
   );
